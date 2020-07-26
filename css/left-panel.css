@@ -15,6 +15,7 @@
   border-radius: 100%;
   margin: auto;
   max-width: 175px;
+  filter: drop-shadow(2px 4px 6px black);
 }
 
 .info-container {
