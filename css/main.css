@@ -1,11 +1,20 @@
 /* Global */
+body {
+  background: #f2f2f2 !important;
+}
+
 section {
   padding: 0px 10px;
   margin-bottom: 25px;
 }
 
+.section-title {
+  display: flex;
+}
+
 .section-title > i {
-  margin-right: 10px;
+  height: 100%;
+  margin: auto 10px auto 0;
 }
 
 a {
@@ -25,94 +34,10 @@ a:hover {
   overflow: hidden;
 }
 
-/* Left Panel Style */
-.left-panel {
-  background: #393939;
-  color: white;
-}
-
-.img-wrapper {
-  width: 100%;
-  margin: 20px 0;
-  text-align: center;
-}
-
-.img-wrapper > img {
-  width: 70%;
-  border-radius: 100%;
-  margin: auto;
-}
-
-.info-container {
-  text-align: center;
-}
-
-.contato-container {
-  display: grid;
-}
-
-.contato-container > a {
-  margin-bottom: 5px;
-  height: 25px;
-  color: white !important;
-  transition: all 0.25s ease-in-out;
-}
-
-.contato-container > a:hover {
-  font-size: 18px;
-}
-
-.contato-container > a > i {
-  margin-right: 10px;
-}
-
-/* Right Panel Style */
-.right-panel {
-  padding: 30px 0;
-}
-
-.formacao-box, .profissao-box, .skill-list {
-  margin-left: 15px;
-}
-
-.profissao-title {
-  margin: 0;
-}
-
-.profissao-periodo, .formacao-periodo {
-  color: grey;
-  font-style: italic;
-}
-
-.formacao-box {
-  display: grid;
-}
-
-.formacao-title {
-  margin: 0;
-}
-
-.progress {
-  margin: 5px 0;
-}
-
-.skill-info {
-  margin-bottom: 5px;
-  transition: all 0.25s ease-in-out;
-}
-
-.skill-info:hover {
-  background: #e0e0e0;
-  border-radius: 10px;
-}
-
-.skill-info > span > i {
-  font-size: 21px;
-  transform: translateY(10%);
-  width: 20px;
-  text-align: center;
-}
-
-.progress-bar {
-  background-color:#5b8d0c !important;
+@media only screen and (max-width: 768px) {
+  .card-container {
+    margin: unset !important;
+    box-shadow: unset !important;
+    border-radius: unset !important;
+  }
 }

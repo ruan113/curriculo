@@ -1,0 +1,62 @@
+/* Right Panel Style */
+.right-panel {
+  padding: 30px 0;
+  background: white;
+}
+
+.formacao-box, .profissao-box, .skill-list {
+  margin-left: 15px;
+}
+
+.profissao-title {
+  margin: 0;
+}
+
+.profissao-periodo, .formacao-periodo {
+  color: grey;
+  font-style: italic;
+}
+
+.formacao-box {
+  display: grid;
+}
+
+.formacao-title {
+  margin: 0;
+}
+
+.progress {
+  margin: 5px 0;
+}
+
+.skill-info {
+  margin-bottom: 5px;
+  transition: all 0.25s ease-in-out;
+}
+
+.skill-info:hover {
+  background: #e0e0e0;
+  border-radius: 10px;
+}
+
+.skill-info > span {
+  display: flex;
+}
+
+.skill-info > span > span {
+  overflow: hidden;
+  text-overflow: ellipsis;
+  white-space: nowrap;
+}
+
+.skill-info > span > i {
+  font-size: 21px;
+  transform: translateY(10%);
+  width: 20px;
+  text-align: center;
+  margin-right: 15px;
+}
+
+.progress-bar {
+  background-color:#5b8d0c !important;
+}

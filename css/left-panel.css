@@ -1,0 +1,41 @@
+/* Left Panel Style */
+.left-panel {
+  background: #393939;
+  color: white;
+}
+
+.img-wrapper {
+  width: 100%;
+  margin: 20px 0;
+  text-align: center;
+}
+
+.img-wrapper > img {
+  width: 70%;
+  border-radius: 100%;
+  margin: auto;
+  max-width: 175px;
+}
+
+.info-container {
+  text-align: center;
+}
+
+.contato-container {
+  display: grid;
+}
+
+.contato-container > a {
+  margin-bottom: 5px;
+  height: 25px;
+  color: white !important;
+  transition: all 0.25s ease-in-out;
+}
+
+.contato-container > a:hover {
+  font-size: 18px;
+}
+
+.contato-container > a > i {
+  margin-right: 10px;
+}
